@@ -18,7 +18,7 @@ import androidx.appcompat.widget.AppCompatImageView
 import androidx.core.view.ScaleGestureDetectorCompat
 import kotlin.math.abs
 
-class ZoomImageView : AppCompatImageView {
+open class ZoomImageView : AppCompatImageView {
     private val kMinScale = 0.6f
     private val kMaxScale = 8f
     private val kResetDuration = 200
